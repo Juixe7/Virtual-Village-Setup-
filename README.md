@@ -16,26 +16,25 @@ A comprehensive 3D infinite village landscape built with Three.js featuring adva
 ## 🏗️ Project Structure
 threejs-village-landscape/
 ├── js/
-│ ├── main.js # Application entry point
-│ ├── core/
-│ │ ├── InfiniteLandscape.js # Main application class
-│ │ ├── TerrainManager.js # Terrain generation system
-│ │ └── AssetLoader.js # Resource management
-│ ├── entities/
-│ │ ├── Character.js # Human character system
-│ │ ├── Animal.js # Animal behaviors and types
-│ │ ├── House.js # Building generation
-│ │ ├── Structures.js # Environmental structures
-│ │ └── Environment.js # Sky, clouds, atmosphere
-│ ├── utils/
-│ │ ├── MathUtils.js # Mathematical utilities
-│ │ └── Noise.js # Procedural noise functions
-│ └── libs/
-│ ├── GLTFLoader.js # 3D model loader
-│ └── OrbitControls.js # Camera controls
-├── index.html # Main HTML file
-├── package.json # Project dependencies
-
+│   ├── main.js             # Application entry point
+│   ├── core/
+│   │   ├── InfiniteLandscape.js # Main application class
+│   │   ├── TerrainManager.js    # Terrain generation system
+│   │   └── AssetLoader.js       # Resource management
+│   ├── entities/
+│   │   ├── Character.js    # Human character system
+│   │   ├── Animal.js       # Animal behaviors and types
+│   │   ├── House.js        # Building generation
+│   │   └── Structures.js   # Environmental structures
+│   ├── Environment.js      # Sky, clouds, atmosphere
+│   └── utils/
+│       ├── MathUtils.js    # Mathematical utilities
+│       └── Noise.js        # Procedural noise functions
+├── libs/
+│   ├── GLTFLoader.js       # 3D model loader
+│   └── OrbitControls.js    # Camera controls
+├── index.html              # Main HTML file
+└── package.json            # Project dependencies
 
 ## 🎮 Controls
 
