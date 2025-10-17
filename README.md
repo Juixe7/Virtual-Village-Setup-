@@ -14,27 +14,15 @@ A comprehensive 3D infinite village landscape built with Three.js featuring adva
 - **Optimized Performance** with level-of-detail rendering
 
 ## 🏗️ Project Structure
-threejs-village-landscape/
-├── js/
-│   ├── main.js             # Application entry point
-│   ├── core/
-│   │   ├── InfiniteLandscape.js # Main application class
-│   │   ├── TerrainManager.js    # Terrain generation system
-│   │   └── AssetLoader.js       # Resource management
-│   ├── entities/
-│   │   ├── Character.js    # Human character system
-│   │   ├── Animal.js       # Animal behaviors and types
-│   │   ├── House.js        # Building generation
-│   │   └── Structures.js   # Environmental structures
-│   ├── Environment.js      # Sky, clouds, atmosphere
-│   └── utils/
-│       ├── MathUtils.js    # Mathematical utilities
-│       └── Noise.js        # Procedural noise functions
-├── libs/
-│   ├── GLTFLoader.js       # 3D model loader
-│   └── OrbitControls.js    # Camera controls
-├── index.html              # Main HTML file
-└── package.json            # Project dependencies
+.
+├── js/               # Main JavaScript source code
+│   ├── core/         # Core application logic (scene, terrain, assets)
+│   ├── entities/     # All in-game objects (characters, buildings)
+│   ├── utils/        # Helper functions (math, noise)
+│   └── main.js       # Entry point that initializes the application
+├── libs/             # Third-party libraries like GLTFLoader
+├── index.html        # Main HTML file
+└── package.json      # Project dependencies and scripts
 
 ## 🎮 Controls
 
