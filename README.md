@@ -84,7 +84,7 @@ A comprehensive 3D infinite village landscape built with Three.js featuring adva
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Juixe7/Virtual-Village-Setup-.git
-   cd threejs-village-landscape
+   cd virtual-village-setup-
 
 2. **Install dependencies**
    ```bash
